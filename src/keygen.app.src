@@ -1,0 +1,12 @@
+{application, keygen,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { keygen_app, []}},
+  {env, []}
+ ]}.
